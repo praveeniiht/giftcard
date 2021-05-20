@@ -26,7 +26,9 @@ public class HomeController {
 	private UserService userService;
 	
 	
-
+	public void testing() {
+		System.out.println("Inside the testing method....");
+	}
 	
 	// Initial request will be mapped to this method and redirects to home page
 	@RequestMapping(value="/")
